@@ -89,10 +89,10 @@ function Home() {
 							<p className="text-gray-700">{post.content}</p>
 						</div>
 						<div className="flex justify-end mt-4 space-x-2">
-							<Link to={`/posts/${post.slug}`} state={{ id: post.id }} className="px-4 py-2 bg-blue-500 text-white rounded">Read More</Link>
+							<Link to={`/posts/${post.slug}?id=${post.id}`} state={{ id: post.id }} className="px-4 py-2 bg-blue-500 text-white rounded">Read More</Link>
 							{user && user.id === post.user.id && (
 								<>
-									<Link to={`/posts/${post.slug}/edit`} state={{ id: post.id }}>
+									<Link to={`/posts/${post.slug}?id=${post.id}/edit`} state={{ id: post.id }}>
 										<button className="px-4 py-2 bg-green-500 text-white rounded">Edit</button>
 									</Link>
 									<button
