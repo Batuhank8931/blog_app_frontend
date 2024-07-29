@@ -11,5 +11,5 @@
 - Siteyi ayağa kaldırmak için:
   `npm run dev`
 
-  Ayarüz, [http://localhost:5175/] adresinde çalışacaktır.
+  Ayarüz, [http://localhost:5175] adresinde çalışacaktır.
 
