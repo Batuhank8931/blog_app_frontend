@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react';
-import eyeIcon from '../../assets/icons/eye-off.png';  // Adjust the path as necessary
-import eyeOffIcon from '../../assets/icons/eye.png';  // Adjust the path as necessary
+import eyeIcon from '../../assets/icons/eye-off.png';  
+import eyeOffIcon from '../../assets/icons/eye.png';  
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { Context } from '../../Context/Context';
